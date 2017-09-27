@@ -21,7 +21,7 @@
     <groupId>org.apache.parquet</groupId>
     <artifactId>parquet</artifactId>
     <relativePath>../pom.xml</relativePath>
-    <version>1.9.0</version>
+    <version>1.9.0-helix</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -87,7 +87,7 @@
   <developers>
     <developer>
       <id>lukasnalezenec</id>
-      <name>Lukas Nalezenec</name>      
+      <name>Lukas Nalezenec</name>
     </developer>
   </developers>
 

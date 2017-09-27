@@ -9,7 +9,7 @@
 
   <groupId>org.apache.parquet</groupId>
   <artifactId>parquet</artifactId>
-  <version>1.9.0</version>
+  <version>1.9.0-helix</version>
   <packaging>pom</packaging>
 
   <name>Apache Parquet MR</name>
@@ -20,7 +20,7 @@
     <connection>scm:git:git@github.com:apache/parquet-mr.git</connection>
     <url>scm:git:git@github.com:apache/parquet-mr.git</url>
     <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/parquet-mr.git</developerConnection>
-    <tag>helix-parquet-1.9.0</tag>
+    <tag>apache-parquet-1.9.0</tag>
   </scm>
 
   <licenses>
@@ -195,13 +195,13 @@
             </execution>
           </executions>
         </plugin>
-        
+
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
           <version>2.7</version>
         </plugin>
-              
+
         <plugin>
           <artifactId>maven-enforcer-plugin</artifactId>
           <version>1.3.1</version>
@@ -328,7 +328,7 @@
           </execution>
         </executions-->
       </plugin>
-      
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
@@ -343,8 +343,8 @@
             <skip>true</skip>
           </configuration>
       </plugin>
-      
-            
+
+
       <plugin>
         <!-- Override source and target from the ASF parent -->
         <groupId>org.apache.maven.plugins</groupId>
