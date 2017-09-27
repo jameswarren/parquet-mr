@@ -142,7 +142,8 @@
             <artifactId>maven-thrift-plugin</artifactId>
             <version>${maven-thrift-plugin.version}</version>
             <configuration>
-                <thriftExecutable>${thrift.executable}</thriftExecutable>
+              <thriftExecutable>${thrift.executable}</thriftExecutable>
+	      <generator>java</generator>
             </configuration>
             <executions>
                 <execution>

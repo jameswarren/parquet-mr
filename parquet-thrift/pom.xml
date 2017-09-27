@@ -147,6 +147,7 @@
         <version>${maven-thrift-plugin.version}</version>
         <configuration>
           <thriftExecutable>${thrift.executable}</thriftExecutable>
+	  <generator>java</generator>
         </configuration>
         <executions>
           <execution>

@@ -179,6 +179,7 @@
           <thriftExecutable>${thrift.executable}</thriftExecutable>
           <thriftSourceRoot>../parquet-cascading-common23/src/main/thrift</thriftSourceRoot>
           <thriftTestSourceRoot>../parquet-cascading-common23/src/test/thrift</thriftTestSourceRoot>
+	  <generator>java</generator>
         </configuration>
         <executions>
           <execution>
